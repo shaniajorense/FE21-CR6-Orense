@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zen+Tokyo+Zoo&display=swap');
+
+#forum{
+    margin: 5vh;
+}
+
+h3{
+    margin: 8vh;
+    font-family: 'Indie Flower', cursive;
+}

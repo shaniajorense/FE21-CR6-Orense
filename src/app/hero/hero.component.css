@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Shadows+Into+Light&family=Zen+Tokyo+Zoo&display=swap');
+
+.jumbotron {
+    color: white;
+    background-image: url("/assets/img/heros.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+  }
+
+  p{
+      margin-left: 20vh;
+      margin-top: -10vh;
+  }
+
+  .logo{
+    font-family: 'Indie Flower', cursive;
+    font-size: 40pt;
+  }
+
+.slogan{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20pt;
+}

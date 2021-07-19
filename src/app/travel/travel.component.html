@@ -1,0 +1,22 @@
+<div id="header" class="d-flex justify-content-center m-5">
+    <span>Travel Offers</span>
+</div>
+
+
+    <div class="container">
+<div *ngFor="let offer of offers;">
+<div class="card p-4" style="width: 18rem;">
+    <img src="{{ offer.img }}" class="card-img-top" alt="image">
+    <div class="card-body">
+      <h5 class="card-title"> {{ offer.destination }} </h5>
+      <p class="card-text"> {{ offer.description }} </p>
+      <p class="card-text"> {{ offer.date }} {{offer.duration}} Days </p>
+      <p class="card-text"> {{ offer.price| currency }} </p>
+      <a (click)="addToCart(offer)" class="btn btn-primary">add to cart</a>
+    </div>
+</div>
+</div>
+</div>
+
+
+

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zen+Tokyo+Zoo&display=swap');
+
+img{
+    width: 30%;
+    height: 40vh;
+    float: right;
+}
+
+.description{
+    margin-top: 20vh;
+}
+
+h5{
+    font-family: 'Indie Flower', cursive;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+.hidtext{
+    margin-top: 10vh;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: -0.5vh;
+}
+
